@@ -1,1 +1,1 @@
-# docs for gjango
+# Gjango documentation
