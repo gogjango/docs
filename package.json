@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "serve",
     "export": "next export",
     "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && npm run copy",
     "copy": "cp -rf out/* . && mkdir -p gogjango.github.io && cp -rf _next gogjango.github.io/"
@@ -22,6 +22,7 @@
   "devDependencies": {
     "babel-plugin-transform-define": "^2.0.0",
     "gh-pages": "^2.2.0",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "serve": "^11.3.0"
   }
 }

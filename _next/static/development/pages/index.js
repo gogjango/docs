@@ -708,7 +708,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Home = function Home() {
   return __jsx("div", {
-    className: "container",
+    className: "container mx-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -738,7 +738,8 @@ var Home = function Home() {
       lineNumber: 7,
       columnNumber: 7
     }
-  })), __jsx("main", {
+  })), __jsx("div", {
+    className: "container mx-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -770,12 +771,28 @@ var Home = function Home() {
       columnNumber: 7
     }
   }, "Get started"), __jsx("div", {
-    className: "grid",
+    className: "flex content-start flex-wrap bg-gray-200",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 7
+    }
+  }, __jsx("div", {
+    className: "w-1/2 p-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "text-gray-700 bg-gray-400 p-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19,
-      columnNumber: 7
+      columnNumber: 11
     }
   }, __jsx("a", {
     href: "/",
@@ -784,96 +801,144 @@ var Home = function Home() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
-      columnNumber: 9
+      columnNumber: 13
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 11
+      columnNumber: 15
     }
   }, "Documentation \u2192"), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
-      columnNumber: 11
+      columnNumber: 15
     }
-  }, "Find in-depth information about Gjango features and API.")), __jsx("a", {
-    href: "/",
-    className: "card",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 9
-    }
-  }, __jsx("h3", {
+  }, "Find in-depth information about Gjango features and API.")))), __jsx("div", {
+    className: "w-1/2 p-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 11
+      columnNumber: 9
     }
-  }, "Learn \u2192"), __jsx("p", {
+  }, __jsx("div", {
+    className: "text-gray-700 bg-gray-400 p-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27,
       columnNumber: 11
     }
-  }, "Learn about Gjango in an interactive course with quizzes!")), __jsx("a", {
+  }, __jsx("a", {
     href: "/",
     className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 9
+      lineNumber: 28,
+      columnNumber: 13
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 11
+      lineNumber: 29,
+      columnNumber: 15
     }
-  }, "Examples \u2192"), __jsx("p", {
+  }, "Learn \u2192"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 15
+    }
+  }, "Learn about Gjango in an interactive course with quizzes!")))), __jsx("div", {
+    className: "w-1/2 p-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "text-gray-700 bg-gray-400 p-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35,
       columnNumber: 11
     }
-  }, "Discover and deploy boilerplate example Gjango projects.")), __jsx("a", {
+  }, __jsx("a", {
     href: "/",
     className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
-      columnNumber: 9
+      lineNumber: 36,
+      columnNumber: 13
     }
   }, __jsx("h3", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 11
+      lineNumber: 37,
+      columnNumber: 15
     }
-  }, "Deploy \u2192"), __jsx("p", {
+  }, "Examples \u2192"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 15
+    }
+  }, "Discover and deploy boilerplate example Gjango projects.")))), __jsx("div", {
+    className: "w-1/2 p-2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "text-gray-700 bg-gray-400 p-2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43,
       columnNumber: 11
     }
-  }, "Instantly deploy your Gjango site.")))), __jsx("footer", {
+  }, __jsx("a", {
+    href: "/",
+    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 44,
+      columnNumber: 13
+    }
+  }, __jsx("h3", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 15
+    }
+  }, "Deploy \u2192"), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 15
+    }
+  }, "Instantly deploy your Gjango site.")))))), __jsx("footer", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
       columnNumber: 5
     }
   }, __jsx("a", {
@@ -883,7 +948,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 54,
       columnNumber: 7
     }
   }, "Powered by ", __jsx("img", {
@@ -892,7 +957,7 @@ var Home = function Home() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 59,
       columnNumber: 20
     }
   }))));
