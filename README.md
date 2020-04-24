@@ -19,8 +19,7 @@ We then use `serve` to serve our static files locally, so we can manually verify
 
 ```bash
 npm run deploy
-npm i -g serve  # one-off installation
-serve
+npm start # we have modified `start` to use `serve`, a static file server
 open localhost:5000
 ```
 

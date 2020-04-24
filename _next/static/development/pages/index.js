@@ -708,7 +708,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var Home = function Home() {
   return __jsx("div", {
-    className: "container mx-auto",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -771,7 +770,7 @@ var Home = function Home() {
       columnNumber: 7
     }
   }, "Get started"), __jsx("div", {
-    className: "flex content-start flex-wrap bg-gray-200",
+    className: "flex content-start flex-wrap",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -787,7 +786,7 @@ var Home = function Home() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "text-gray-700 bg-gray-400 p-2",
+    className: "text-gray-700 border-gray-400 border p-2 rounded-lg h-full",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -796,7 +795,6 @@ var Home = function Home() {
     }
   }, __jsx("a", {
     href: "/",
-    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -826,7 +824,7 @@ var Home = function Home() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "text-gray-700 bg-gray-400 p-2",
+    className: "text-gray-700 border-gray-400 border p-2 rounded-lg h-full",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -835,7 +833,6 @@ var Home = function Home() {
     }
   }, __jsx("a", {
     href: "/",
-    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -865,7 +862,7 @@ var Home = function Home() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "text-gray-700 bg-gray-400 p-2",
+    className: "text-gray-700 border-gray-400 border p-2 rounded-lg h-full",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -874,7 +871,6 @@ var Home = function Home() {
     }
   }, __jsx("a", {
     href: "/",
-    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -904,7 +900,7 @@ var Home = function Home() {
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: "text-gray-700 bg-gray-400 p-2",
+    className: "text-gray-700 border-gray-400 border p-2 rounded-lg h-full",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -913,7 +909,6 @@ var Home = function Home() {
     }
   }, __jsx("a", {
     href: "/",
-    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
