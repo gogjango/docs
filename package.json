@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "serve",
     "export": "next export",
-    "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && npm run copy",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && rimraf _next && next build && next export && npm run copy",
     "copy": "cp -rf out/* . && mkdir -p gogjango.github.io && cp -rf _next gogjango.github.io/"
   },
   "dependencies": {
