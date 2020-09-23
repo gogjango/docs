@@ -11,7 +11,7 @@
     "copy": "cp -rf out/* . && mkdir -p gogjango.github.io && cp -rf _next gogjango.github.io/"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@fullhuman/postcss-purgecss": "^3.0.0",
     "autoprefixer": "^9.8.6",
     "next": "9.5.3",
     "postcss-import": "^12.0.1",
